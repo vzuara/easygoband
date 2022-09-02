@@ -1,12 +1,22 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-
+import { beerModule } from './beer';
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
+  state: {
+    dialog: false,
+    loading: false,
+  },
   getters: {},
-  mutations: {},
+  mutations: {
+    setDialog(state, dialog) {
+      state.dialog = dialog;
+    },
+    setLoading(state, loading) {
+      state.loading = loading;
+    },
+  },
   actions: {},
-  modules: {},
+  modules: { beerModule },
 });
