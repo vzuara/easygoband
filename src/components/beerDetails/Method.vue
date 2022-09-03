@@ -29,7 +29,7 @@ export default {
   props: {
     methods: {
       type: Object,
-      require: true,
+      required: true,
     },
   },
 };

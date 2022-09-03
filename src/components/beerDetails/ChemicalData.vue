@@ -1,7 +1,7 @@
 <template>
   <v-container class="mx-5 my-3">
     <v-row>
-      <v-col cols="6" lg="4" class="mb-0 pb-0">First: brewed</v-col>
+      <v-col cols="6" lg="4" class="mb-0 pb-0">First brewed</v-col>
       <v-col cols="6" lg="8" class="mb-0 pb-0 font-weight-bold">{{
         chemicalInfo.first_brewed
       }}</v-col>
@@ -67,7 +67,7 @@ export default {
   props: {
     chemicalInfo: {
       type: Object,
-      require: true,
+      required: true,
     },
   },
   methods: {

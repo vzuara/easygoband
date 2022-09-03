@@ -10,7 +10,7 @@ export default {
   props: {
     tips: {
       type: String,
-      require: true,
+      required: true,
     },
   },
 };

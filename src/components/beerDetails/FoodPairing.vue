@@ -13,7 +13,7 @@ export default {
   props: {
     foods: {
       type: Array,
-      require: true,
+      required: true,
     },
   },
 };

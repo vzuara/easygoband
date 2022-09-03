@@ -12,7 +12,7 @@ export default {
   props: {
     img: {
       type: String,
-      require: true,
+      required: true,
     },
   },
 };

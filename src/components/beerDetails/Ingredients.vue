@@ -20,7 +20,7 @@ export default {
   props: {
     ingredients: {
       type: Object,
-      require: true,
+      required: true,
     },
   },
   methods: {

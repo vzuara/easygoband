@@ -13,7 +13,7 @@ export default {
   props: {
     tagline: {
       type: String,
-      require: true,
+      required: true,
     },
   },
 };

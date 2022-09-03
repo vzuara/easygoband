@@ -49,7 +49,7 @@
               :max="filters.abv_max"
               v-model="filters.abv_min"
               clearable
-              label="ABV Min value"
+              label="ABV Min"
             />
           </v-col>
           <v-col cols="12" sm="6">
@@ -58,7 +58,7 @@
               :min="filters.abv_min"
               v-model="filters.abv_max"
               clearable
-              label="ABV Max value"
+              label="ABV Max"
             />
           </v-col>
         </v-row>
@@ -69,7 +69,7 @@
               :max="filters.ibu_max"
               v-model="filters.ibu_min"
               clearable
-              label="IBU Min value"
+              label="IBU Min"
             />
           </v-col>
           <v-col cols="12" sm="6">
@@ -78,7 +78,7 @@
               :min="filters.ibu_min"
               v-model="filters.ibu_max"
               clearable
-              label="IBU Max value"
+              label="IBU Max"
             />
           </v-col>
         </v-row>
@@ -89,7 +89,7 @@
               :max="filters.ebc_max"
               v-model="filters.ebc_min"
               clearable
-              label="EBC Min value"
+              label="EBC Min"
             />
           </v-col>
           <v-col cols="12" sm="6">
@@ -98,7 +98,7 @@
               :min="filters.ebc_min"
               v-model="filters.ebc_max"
               clearable
-              label="EBC Max value"
+              label="EBC Max"
             />
           </v-col>
         </v-row>

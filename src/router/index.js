@@ -5,7 +5,7 @@ import DetailsView from '../views/DetailsView.vue';
 
 Vue.use(VueRouter);
 
-const routes = [
+export const routes = [
   {
     path: '/',
     name: 'beerList',

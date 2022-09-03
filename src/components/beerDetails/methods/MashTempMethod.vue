@@ -15,7 +15,7 @@ export default {
   props: {
     data: {
       type: Array,
-      require: true,
+      required: true,
     },
   },
 };
