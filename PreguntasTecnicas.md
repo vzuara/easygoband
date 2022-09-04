@@ -17,10 +17,12 @@
 ##### NPM
 
 ● Instalacion
-**$ npm i**
+
+$ npm i
 
 ● Ejecucion
-**$ npm run serve**
+
+$ npm run serve
 
 $ npm run build
 
@@ -33,9 +35,11 @@ $ npm run lint
 ##### YARN
 
 ● Instalacion
+
 $ yarn
 
 ● Ejecucion
+
 $ yarn serve
 
 $ yarn build
