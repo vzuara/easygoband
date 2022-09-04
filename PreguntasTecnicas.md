@@ -2,43 +2,14 @@
 
 ### LIBRERIAS UTILIZADAS
 
-#### DEPENDENCIAS
+#### DEPENDENCIAS AGREGADAS
 
-"axios": "^0.27.2", **AGREGADA**
-"core-js": "^3.8.3",
-"moment": "^2.29.4", **AGREGADA**
-"vue": "^2.6.14",
-"vue-router": "^3.5.1",
-"vuetify": "^2.6.0",
-"vuex": "^3.6.2"
+"axios": "^0.27.2", **AGREGADA (UTILIZADA PARA REALIZAR LAS PETICIONES AL API)**
+"moment": "^2.29.4", **AGREGADA (UTILIZADA PARA MANEJAR LAS FECHAS DE FABRICADO)**
 
 #### DEPENDIENCIAS DE DESARROLLO
 
-"@babel/core": "^7.12.16",
-"@babel/eslint-parser": "^7.12.16",
-"@vue/cli-plugin-babel": "~5.0.0",
-"@vue/cli-plugin-e2e-cypress": "~5.0.0",
-"@vue/cli-plugin-eslint": "~5.0.0",
-"@vue/cli-plugin-router": "~5.0.0",
-"@vue/cli-plugin-unit-jest": "~5.0.0",
-"@vue/cli-plugin-vuex": "~5.0.0",
-"@vue/cli-service": "~5.0.0",
-"@vue/test-utils": "^1.1.3",
-"@vue/vue2-jest": "^27.0.0-alpha.2",
-"babel-jest": "^27.0.6",
-"cypress": "^9.7.0",
-"eslint": "^7.32.0",
-"eslint-config-prettier": "^8.3.0",
-"eslint-plugin-prettier": "^4.0.0",
-"eslint-plugin-vue": "^8.0.3",
-"jest": "^27.0.5",
-"prettier": "^2.4.1",
-"sass": "~1.32.0",
-"sass-loader": "^10.0.0",
-"sinon": "^14.0.0", **AGREGADA**
-"vue-cli-plugin-vuetify": "~2.5.5",
-"vue-template-compiler": "^2.6.14",
-"vuetify-loader": "^1.7.0"
+"sinon": "^14.0.0", **AGREGADA (UTILIZADA EN LAS PRUEBAS UNITARIAS)**
 
 #### COMANDOS
 
