@@ -17,10 +17,10 @@
 ##### NPM
 
 ● Instalacion
-$ npm i
+**$ npm i**
 
 ● Ejecucion
-$ npm run serve
+**$ npm run serve**
 
 $ npm run build
 
