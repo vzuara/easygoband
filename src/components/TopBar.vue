@@ -3,7 +3,7 @@
     <div class="d-flex align-center">
       <v-img
         alt="EasyGoBand logo"
-        class="shrink mr-2 hidden-md-and-up"
+        class="logo shrink mr-2 hidden-md-and-up"
         contain
         src="./../assets/logo.png"
         transition="scale-transition"
@@ -12,7 +12,7 @@
 
       <v-img
         alt="EasyGoBand logo"
-        class="shrink mt-1 hidden-sm-and-down"
+        class="logo shrink mt-1 hidden-sm-and-down"
         contain
         min-width="200"
         src="./../assets/logo.png"

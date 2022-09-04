@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0">
+  <v-card name="twist" elevation="0">
     <h5>TWIST</h5>
     {{ data }}
   </v-card>

@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0">
+  <v-card name="contributedBy" elevation="0">
     <p class="my-0 font-italic font-weight-bold">By: {{ person }}</p>
   </v-card>
 </template>

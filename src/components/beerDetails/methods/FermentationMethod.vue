@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0">
+  <v-card name="fermentation" elevation="0">
     <h5>FERMENTATION</h5>
     {{ data.temp.value }} <v-icon class="pb-1">mdi-temperature-celsius</v-icon>
   </v-card>

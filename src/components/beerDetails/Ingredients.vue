@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0">
+  <v-card name="ingredients" elevation="0">
     <h2>Ingredients</h2>
     <div v-for="(group, type) in ingredients" :key="type" class="mt-3">
       <h5>{{ type.toUpperCase() }}</h5>

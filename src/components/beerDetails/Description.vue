@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0">
+  <v-card name="descriptionCard" elevation="0">
     <h2>Description</h2>
     {{ description }}
   </v-card>

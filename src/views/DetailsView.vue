@@ -8,7 +8,7 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn @click="backToList" outlined small rounded>
+            <v-btn id="backBtn" @click="backToList" outlined small rounded>
               <v-icon>mdi-arrow-left-thick</v-icon> Back to list
             </v-btn>
           </v-toolbar>

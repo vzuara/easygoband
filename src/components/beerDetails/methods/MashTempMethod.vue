@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0">
+  <v-card name="mashTempCard" elevation="0">
     <h5>MASH TEMP</h5>
     <p v-for="(process, index) in data" :key="index" class="mb-0">
       {{ `Temp: ${process.temp.value}` }}

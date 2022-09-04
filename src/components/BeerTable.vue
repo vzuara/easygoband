@@ -3,6 +3,7 @@
     <v-row class="text-center">
       <v-col cols="12">
         <v-data-table
+          id="beersTable"
           :headers="headers"
           :items="beers"
           :options.sync="options"
@@ -29,13 +30,13 @@
           </template>
 
           <template #[`footer`]>
-            <v-chip class="ma-2" color="green" text-color="white">
+            <v-chip id="low" class="ma-2" color="green" text-color="white">
               Low Level</v-chip
             >
-            <v-chip class="ma-2" color="orange" text-color="white">
+            <v-chip id="med" class="ma-2" color="orange" text-color="white">
               Medium Level
             </v-chip>
-            <v-chip class="ma-2" color="red" text-color="white">
+            <v-chip id="high" class="ma-2" color="red" text-color="white">
               High Level</v-chip
             >
           </template>

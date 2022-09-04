@@ -8,7 +8,7 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn outlined small rounded @click="setDialog(true)">
+            <v-btn id="filters" outlined small rounded @click="setDialog(true)">
               <v-icon>mdi-magnify</v-icon> Filters
             </v-btn>
           </v-toolbar>

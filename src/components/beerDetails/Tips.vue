@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0">
+  <v-card name="tips" elevation="0">
     <p class="my-0 text--subtitle-2 font-italic">* {{ tips }}</p>
   </v-card>
 </template>
