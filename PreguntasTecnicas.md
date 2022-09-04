@@ -4,9 +4,9 @@
 
 #### DEPENDENCIAS
 
-"axios": "^0.27.2", <== AGREGADA
+"axios": "^0.27.2", **AGREGADA**
 "core-js": "^3.8.3",
-"moment": "^2.29.4", <== AGREGADA
+"moment": "^2.29.4", **AGREGADA**
 "vue": "^2.6.14",
 "vue-router": "^3.5.1",
 "vuetify": "^2.6.0",
@@ -35,7 +35,7 @@
 "prettier": "^2.4.1",
 "sass": "~1.32.0",
 "sass-loader": "^10.0.0",
-"sinon": "^14.0.0", <== AGREGADA
+"sinon": "^14.0.0", **AGREGADA**
 "vue-cli-plugin-vuetify": "~2.5.5",
 "vue-template-compiler": "^2.6.14",
 "vuetify-loader": "^1.7.0"
@@ -49,9 +49,13 @@ $ npm i
 
 ● Ejecucion
 $ npm run serve
+
 $ npm run build
+
 $ npm run test:unit
+
 $ npm run test:e2e
+
 $ npm run lint
 
 ##### YARN
@@ -61,9 +65,13 @@ $ yarn
 
 ● Ejecucion
 $ yarn serve
+
 $ yarn build
+
 $ yarn test:unit
+
 $ yarn test:e2e
+
 $ yarn lint
 
 #### DESCRIPCION DE IMPLEMENTACION
@@ -115,26 +123,29 @@ vez has tenido que hacerlo?
 R= Normalmente lo que hago es reproducir el error y ayudarme de las herramientas de desarrollo del chrome (las pestañas "console" para ver el detalle del error de la vista, y la pestaña "network" para ver si hay un posible error en back)
 
 ● Descríbete a ti mismo en formato JSON.
+
+```JSON
 {
-datosPersonales: {
-nombre: 'Victor Santiago Azuara Gallegos',
-edad: '49 años',
-celular: '+52 646 185 1733',
-correo: 'vzuara@gmail.com'
-},
-residencia: {
-pais: 'México',
-estado: 'Baja California',
-ciudad: 'Ensenada'
-},
-personalidad: {
-caracter: ['Disciplinado', 'Comprometido', 'Responsable', 'Honorable'],
-aspiraciones: 'continuar crecimiento personal, profesional, economico y bienestar para mi familia',
-hobbies: ['Escuchar musica', 'Estudiar', 'Ver series', 'Juegos de mesa', 'Salir a tomar cafe'],
-musica: {
-generos: ['Rock', 'Pop', 'Electronica']
-},
-fortalezas: ['Noble', 'Dedicado', ''Ordenado', 'Optimista', 'Altruista', 'Confiable'],
-areasOporunidad: ['testarudo', 'Impaciente', 'Perfeccionista']
+  datosPersonales: {
+    nombre: 'Victor Santiago Azuara Gallegos',
+    edad: '49 años',
+    celular: '+52 646 185 1733',
+    correo: 'vzuara@gmail.com'
+  },
+  residencia: {
+    pais: 'México',
+    estado: 'Baja California',
+    ciudad: 'Ensenada'
+  },
+  personalidad: {
+    caracter: ['Disciplinado', 'Comprometido', 'Responsable', 'Honorable'],
+    aspiraciones: 'continuar crecimiento personal, profesional, economico y bienestar para mi familia',
+    hobbies: ['Escuchar musica', 'Estudiar', 'Ver series', 'Juegos de mesa', 'Salir a tomar cafe'],
+    musica: {
+      generos: ['Rock', 'Pop', 'Electronica']
+    },
+    fortalezas: ['Noble', 'Dedicado', ''Ordenado', 'Optimista', 'Altruista', 'Confiable'],
+    areasOporunidad: ['testarudo', 'Impaciente', 'Perfeccionista']
+  }
 }
-}
+```
